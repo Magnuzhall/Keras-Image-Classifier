@@ -4,7 +4,7 @@
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
 
-## Getting started in 10 minutes
+## Getting started
 
 - Clone this repo 
 - Install requirements
@@ -139,6 +139,9 @@ server {
 ```
 
 ## More resources
+
+Please note this is a modified version of the keras flask deploy web app by https://github.com/mtobeiyf
+
 
 Check Siraj's ["How to Deploy a Keras Model to Production"](https://youtu.be/f6Bf3gl4hWY) video. The corresponding [repo](https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production).
 
