@@ -35,7 +35,7 @@ def model_predict(img_path, model):
     # x = np.true_divide(x, 255)
     x = np.expand_dims(x, axis=0)
 
-    #Changed mode from caffe to 'torch' so the model makes accurate predictions
+    #Changed mode from caffe to 'torch' so the model makes accurate predictions with DenseNet
     x = preprocess_input(x, mode='torch')
 
     predictions = model.predict(x)
